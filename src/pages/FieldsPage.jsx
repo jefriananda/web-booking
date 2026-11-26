@@ -215,8 +215,6 @@ export default function FieldsPage({ notify }) {
         <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
           {fields.map((field) => {
             const image = assetUrl(field.image);
-
-            console.log("Gambar : ", image)
             return (
               <article
                 className={cx(
